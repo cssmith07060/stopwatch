@@ -71,3 +71,9 @@ h1,h2{
 #tens{
     font-size: 2rem;
 }
+
+.controls{
+   margin-top: 20vh; 
+   display: flex;
+   justify-items: space-between;
+}
