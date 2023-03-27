@@ -76,4 +76,27 @@ h1,h2{
    margin-top: 20vh; 
    display: flex;
    justify-items: space-between;
+   margin: 4rem auto;
+}
+
+.laps-container{
+max-width: 400px;
+margin: 4rem auto;
+font-size: 2rem;
+}
+
+.laps-container span{
+    letter-spacing: 3px;
+}
+
+.laps-container li{
+    border-radius: var(--border-radios);
+}
+
+.laps-container li:nth-child(odd){
+    background-color: var(--bg-c);
+}
+
+laps-container li:nth-child(even){
+    color: var(--bg-c);
 }
