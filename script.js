@@ -28,5 +28,11 @@ function startTimer() {
     if (tensSet > 99) {
         secondsSet++;
         seconds.innerHTML = "0" + secondsSet;
+        tensSet = 0;
+        tens.innerHTML = "0" + 0;
+    }
+    if (secondsSet == 60) {
+        minutesSet++;
+        minutes.innerHTML='0'
     }
 };
