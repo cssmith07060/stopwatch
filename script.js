@@ -20,4 +20,13 @@ window.onload = function () {
 
 function startTimer() {
     tens++;
+    if (tensSet < 9) {
+        tens.innerHTML = "0" + tens;
+    }
+    if (tensSet > 9) tens.innerHTML = tensSet;
+    
+    if (tensSet > 99) {
+        secondsSet++;
+        seconds.innerHTML = "0" + secondsSet;
+    }
 };
